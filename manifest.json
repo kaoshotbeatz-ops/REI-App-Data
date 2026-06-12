@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-12T00:00:00Z",
+  "files": [
+    { "id": "events", "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/events.json", "updatedAt": "2026-06-12T00:00:00Z" },
+    { "id": "offerings", "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/offerings.json", "updatedAt": "2026-06-12T00:00:00Z" },
+    { "id": "org", "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/org.json", "updatedAt": "2026-06-12T00:00:00Z" }
+  ]
+}

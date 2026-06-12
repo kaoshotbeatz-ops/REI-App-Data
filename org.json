@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-12T00:00:00Z",
+  "name": "The Racial Equity Institute",
+  "shortName": "REI",
+  "selfDescription": "A Black-owned business comprised of a multiracial team of organizers and trainers devoted to anti-racism transformation and structural-racism education.",
+  "mission": "REI maintains a movement orientation, always focused on institutional change with equitable and just outcomes for everyone.",
+  "visionLines": [
+    "Trust is real.",
+    "Difference fuels innovation.",
+    "Success is earned, not inherited.",
+    "Power is shared, not gatekept."
+  ],
+  "philosophy": "Racism operates at institutional and systemic levels independent of individual intention. REI's analysis addresses social systems themselves, not individual deficits. Power is at the root of human experience.",
+  "groundwaterMetaphor": "If you find dead fish in one lake, you ask what's wrong with the fish. If you find dead fish in every lake in the region, you analyze the groundwater. Racial disparities show up in every system — education, health, housing, justice — so the cause is structural, in the groundwater, not in the fish.",
+  "history": "Founded in 2012 by Deena Hayes-Greene (Managing Director) and Suzanne Plihcik, both former lead trainers for Dismantling Racism Works (DRWorks/Changework) and the People's Institute for Survival and Beyond. After DRWorks director Kenneth Jones died, Plihcik (with Bree Carlson) completed his contracts; Hayes then joined Plihcik, and REI was incorporated under Hayes's leadership and creative vision. REI neither advertised nor sought work through proposals — it went nowhere uninvited, and the number of requests doubled in short order. Today REI's trainer corps includes more than 40 multiracial, multi-generational trainers from education, healthcare, law enforcement, nonprofits, and business.",
+  "founders": [
+    { "name": "Deena Hayes-Greene", "role": "Co-founder & Managing Director" },
+    { "name": "Suzanne Plihcik", "role": "Co-founder" }
+  ],
+  "leadership": [
+    { "name": "Monica Walker", "role": "People's Institute lead trainer; joined REI leadership early" }
+  ],
+  "staffContacts": [
+    { "name": "Megan Hayes-Bell", "role": "Programs & services", "email": "meganhb@racialequityinstitute.org" },
+    { "name": "Toneysha Amos Frisby", "role": "Scheduling, booking & hiring", "email": "tafrisby@racialequityinstitute.org" },
+    { "name": "Accounting", "role": "Billing", "email": "accounting-rei@racialequityinstitute.org" }
+  ],
+  "location": "Greensboro, North Carolina",
+  "phone": "336-582-0351",
+  "website": "https://www.racialequityinstitute.org",
+  "socials": [
+    { "platform": "Instagram", "handle": "@racialequityinstitute", "url": "https://www.instagram.com/racialequityinstitute" },
+    { "platform": "Facebook", "handle": "/racialequityinstitute", "url": "https://www.facebook.com/racialequityinstitute" }
+  ],
+  "donationUrl": "https://buy.stripe.com/eVafZGaaddwG44EdR3",
+  "newsletter": {
+    "note": "Sign up for REI's email newsletter on the website (Squarespace Email Campaigns, reCAPTCHA-protected).",
+    "url": "https://www.racialequityinstitute.org"
+  },
+  "bookingPortal": "https://book.appointment-plus.com/yrb7l7n8#/",
+  "groundwaterWhitepaperUrl": "https://www.isbe.net/Documents/Groundwater-Approach.pdf",
+  "keyLinks": [
+    { "title": "About REI", "url": "https://www.racialequityinstitute.org/aboutrei" },
+    { "title": "Our Services", "url": "https://www.racialequityinstitute.org/our-services" },
+    { "title": "Our Impact", "url": "https://www.racialequityinstitute.org/our-impact" },
+    { "title": "Upcoming Trainings", "url": "https://www.racialequityinstitute.org/trainings" },
+    { "title": "FAQs", "url": "https://www.racialequityinstitute.org/faqs" },
+    { "title": "Bibliography (reading list)", "url": "https://www.racialequityinstitute.org/bibliography" },
+    { "title": "Voter Registration", "url": "https://www.racialequityinstitute.org/voter-registration" },
+    { "title": "Blog", "url": "https://www.racialequityinstitute.org/blog-3-1" },
+    { "title": "Equity Paradox Conference", "url": "https://www.racialequityinstitute.org/equity-paradox-conference" },
+    { "title": "Contact", "url": "https://www.racialequityinstitute.org/contact" }
+  ],
+  "testimonials": [
+    { "quote": "One of the most fact-based and therefore compelling overviews of data.", "name": "Cathy Belk", "role": "President, JumpStart Inc., Cleveland" },
+    { "quote": "Conversations that don't get emotional and think with the front of our brain.", "name": "Val Tate", "role": "Indianapolis Inclusive Innovation Council" },
+    { "quote": "A competent vocabulary for understanding and articulating the realities of race.", "name": "Josiah M. Daniels", "role": "Charlotte Family Housing" }
+  ],
+  "impact": [
+    { "title": "Race Matters for Juvenile Justice", "detail": "Charlotte-Mecklenburg — thousands trained, cross-system shared language." },
+    { "title": "The Partnership Project", "detail": "Greensboro/Guilford — measurable change in housing, healthcare, child welfare, and economic development since 2012." }
+  ],
+  "policies": [
+    "Booking requests are confirmed or declined within 10 business days.",
+    "Invoices are net-30.",
+    "Cancellation fewer than 15 days out incurs a 50% charge; 45+ days out, no penalty.",
+    "REI does not issue certificates; hosts may provide them.",
+    "Workbooks are included with most workshops.",
+    "Virtual workshops: one participant per registration — screens may not be shared."
+  ]
+}
