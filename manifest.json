@@ -1,9 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-12T00:00:00Z",
+  "updatedAt": "2026-06-12T21:01:53Z",
   "files": [
-    { "id": "events", "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/events.json", "updatedAt": "2026-06-12T00:00:00Z" },
-    { "id": "offerings", "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/offerings.json", "updatedAt": "2026-06-12T00:00:00Z" },
-    { "id": "org", "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/org.json", "updatedAt": "2026-06-12T00:00:00Z" }
-  ]
+    {
+      "id": "events",
+      "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/events.json",
+      "updatedAt": "2026-06-12T21:01:53Z",
+      "sha256": "38a62721bef8e7abc0b961043b009decacff9d916cf53fd086b14c0d1a5f8294"
+    },
+    {
+      "id": "offerings",
+      "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/offerings.json",
+      "updatedAt": "2026-06-12T21:01:53Z",
+      "sha256": "6976b04e94cfc0d6516b78c1863721d19725b3889a1c7d8745c78dbe2a40047b"
+    },
+    {
+      "id": "org",
+      "url": "https://raw.githubusercontent.com/kaoshotbeatz-ops/REI-App-Data/main/org.json",
+      "updatedAt": "2026-06-12T21:01:53Z",
+      "sha256": "7b0210c455683f2f1f1346b6d321db0928fee9610151b1d3e67628f396e79ceb"
+    }
+  ],
+  "minBuild": 2026061301
 }

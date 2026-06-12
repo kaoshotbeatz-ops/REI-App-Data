@@ -14,6 +14,7 @@
 // committing bad data.
 
 import { readFileSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 
 const SOURCE = "https://www.racialequityinstitute.org/trainings?format=json";
 const OUT = new URL("../events.json", import.meta.url).pathname;
@@ -125,7 +126,15 @@ async function main() {
   writeFileSync(OUT, JSON.stringify(out, null, 2) + "\n");
   const manifest = JSON.parse(readFileSync(MANIFEST, "utf8"));
   manifest.updatedAt = now;
-  for (const f of manifest.files) if (f.id === "events") f.updatedAt = now;
+  // Recompute sha256 + bump updatedAt for the changed file(s) so the app's
+  // integrity gate stays valid. Always re-hash every file from disk.
+  const dir = new URL("../", import.meta.url).pathname;
+  for (const f of manifest.files) {
+    const bytes = readFileSync(dir + f.id + ".json");
+    const newHash = createHash("sha256").update(bytes).digest("hex");
+    if (f.id === "events") f.updatedAt = now;       // only events was re-scraped
+    f.sha256 = newHash;
+  }
   writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2) + "\n");
   console.log(`wrote ${out.events.length} events`);
 }
