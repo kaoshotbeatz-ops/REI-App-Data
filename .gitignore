@@ -1,0 +1,11 @@
+
+node_modules/
+build/
+DerivedData/
+.env
+.env.*
+*.p8
+*.pem
+*.key
+*.p12
+.DS_Store
